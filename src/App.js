@@ -6,7 +6,7 @@ function App() {
   const dispatch = useDispatch();
   const { data, isLoading, isError, error } = useSelector(({ todos }) => todos);
 
-  // const users = useSelector((state) => state.todos);
+  // const todos = useSelector((state) => state.todos);
 
   console.log(isLoading, isError);
   useEffect(() => {
